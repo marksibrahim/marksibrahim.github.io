@@ -3,8 +3,8 @@ title:       Musings
 email:       https://github.com/marksibrahim 
 author:      Mark Ibrahim
 description: "On code, math, and learnings"
-baseurl:     "/marksibrahim.github.io"
-url:         "https://github.com/marksibrahim/marksibrahim.github.io"
+baseurl:     "/marksibrahim.github.io/blog"
+url:         "https://github.com/marksibrahim/marksibrahim.github.io/blog/index.html"
 
 # Google analytics
 google_analytics:
