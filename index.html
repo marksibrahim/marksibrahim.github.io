@@ -122,6 +122,10 @@ to do:
                     <p class="lead">a project with NextVermontDeveloper group</p>
                     <p class="sublead"><i class="fa fa-umbrella"></i></p>
                     <p class="sublead">text me when it rains</p>
+                    <h2 class="section-heading">Video Search</h2>
+                    <p class="lead">find the moment a word is spoken</p>
+                    <p class="sublead"><i class="fa fa-film"></i></p>
+                    <p class="sublead">search human speech</p>
                 </div>
             </div>
 
@@ -165,6 +169,14 @@ to do:
                 <div class="col-lg-6">
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-10">
+                    <h2>Python Workshop</h2>
+                    <p class="lead">my <a href="http://marksibrahim.github.io/python_workshop/#/">slides live here</a> covering basic syntax, dictionaries, and loops.</p>
+                </div>
+                <div class="col-lg-6">
+                </div>
+            </div>
 
         </div>
         <!-- /.container -->
@@ -188,6 +200,19 @@ to do:
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <! -- hide name when scroll down -->
+    <script>
+    $(function() {
+      $(document).on("mousewheel", function() {
+        if($(document).scrollTop() > 100){
+            $('.topnav').hide();
+        } else {
+            $('.topnav').show();
+        }; 
+      });
+    });
+
+    </script>
 </body>
 
 </html>
