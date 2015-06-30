@@ -200,7 +200,7 @@ to do:
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <! -- hide name when scroll down -->
+    <! -- hide navbar on scroll or click-->
     <script>
     $(function() {
       $(document).on("mousewheel", function() {
@@ -210,6 +210,10 @@ to do:
             $('.topnav').show();
         }; 
       });
+    });
+
+    $('.navbar-right').on('click', function() {
+        $('.topnav').hide();
     });
 
     </script>
