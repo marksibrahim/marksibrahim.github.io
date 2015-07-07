@@ -1,0 +1,84 @@
+
+\documentclass[twoside]{article}
+
+
+% ------
+% Fonts and typesetting settings
+\usepackage[sc]{mathpazo}
+\usepackage[T1]{fontenc}
+\linespread{1.05} % Palatino needs more space between lines
+\usepackage{microtype}
+
+
+% ------
+% Page layout
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry}
+\usepackage[font=it]{caption}
+\usepackage{paralist}
+\usepackage{multicol, hyperref, graphicx}
+
+% ------
+% Lettrines
+\usepackage{lettrine}
+\usepackage{color}
+
+
+% ------
+% Abstract
+\usepackage{abstract}
+	\renewcommand{\abstractnamefont}{\normalfont\bfseries}
+	\renewcommand{\abstracttextfont}{\normalfont\small\itshape}
+
+
+% ------
+% Titling (section/subsection)
+\usepackage{titlesec}
+\renewcommand\thesection{\Roman{section}}
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{}
+
+
+% ------
+% Header/footer
+\usepackage{fancyhdr}
+	\pagestyle{fancy}
+	\fancyhead{}
+	\fancyfoot{}
+	\fancyhead[C]{}
+	\fancyfoot[RO,LE]{Mark Ibrahim}
+
+
+% ------
+% Clickable URLs (optional)
+\usepackage{hyperref}
+
+% ------
+% Maketitle metadata
+\title{\vspace{-5mm}%
+	\fontsize{24pt}{12pt}\selectfont
+	\textbf{What's So Special About Philosophy?} 
+	}	
+\author{
+\fontsize{14pt}{14pt}\selectfont
+	a meander through Wikipedia's First Link Network \vspace{-2mm}
+	}
+\date{}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+
+\begin{abstract}
+\fontsize{12pt}{12pt}\selectfont
+\noindent Apples, oranges, and the most obscure Dylan song too---is any article a few clicks from Philosophy? The surprising answer is yes, $95\%$ of the time (according to a popular blog post).\\
+
+Wikipedia is the largest, most meticulously indexed collection of human knolwedge ever amassed. Yet, we have never closely examined the curious web tying one entry to another. By following the first link in an article, we connect entries to form a directed network within Wikipedia: Wikpedia's First Link Network. Our aim is to study Wikipedia's First Link Network for insight into the topics, ideas, people, objects, and events we link and perhaps why, or whether, all articles lead to philosophy.
+
+
+\end{abstract}
+	
+\end{document}
+
