@@ -8,20 +8,20 @@
 \usepackage[T1]{fontenc}
 \linespread{1.05} % Palatino needs more space between lines
 \usepackage{microtype}
+\usepackage{textcomp}
 
 
 % ------
 % Page layout
 \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry}
 \usepackage[font=it]{caption}
-\usepackage{paralist}
-\usepackage{multicol, hyperref, graphicx}
+\usepackage{multicol, hyperref}
+\usepackage{parskip}
 
 % ------
 % Lettrines
 \usepackage{lettrine}
 \usepackage{color}
-
 
 % ------
 % Abstract
@@ -43,9 +43,42 @@
 	\pagestyle{fancy}
 	\fancyhead{}
 	\fancyfoot{}
-	\fancyhead[C]{}
+	\fancyhead[C]{ $\bullet$ Draft $\bullet$}
 	\fancyfoot[RO,LE]{Mark Ibrahim}
 
+% My Shortcuts 
+
+%useful shortcuts
+\def\R{\ensuremath{\mathbb{R}}} %\ensuremath adds math mode, if forgotten
+\def\Q{\ensuremath{\mathbb{Q}}}
+\def\N{\ensuremath{\mathbb{N}}}
+\def\Z{\ensuremath{\mathbb{Z}}}
+\def\C{\ensuremath{\mathbb{C}}}
+
+%shorcuts with arguments
+\newcommand{\abs}[1]{\left\vert#1\right\vert} %nice absolute values
+\newcommand{\bt}[1]{\textbf{#1}} %bold
+\newcommand{\eq}[1]{\begin{align*}#1\end{align*}} %aligned equations
+\newcommand{\cb}[1]{\centerline{\fbox{#1}}} %centered box
+\newcommand{\bp}[1]{\fbox{\parbox{0.8\textwidth}{#1}}} %box paragraph
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert} %vector norm
+\newcommand{\notimplies}{% does not imply
+  \mathrel{{\ooalign{\hidewidth$\not\phantom{=}$\hidewidth\cr$\implies$}}}}
+\renewcommand{\eq}[1]{\begin{align*}#1\end{align*}} %aligned equations
+
+%colors
+\definecolor{javagreen}{rgb}{0.25,0.5,0.35} %dark green color
+\definecolor{lightblue}{rgb}{0.149,0.545,0.824} %solarized blue
+\definecolor{sred}{rgb}{0.863, 0.196, 0.184} %solarized red
+
+\newcommand{\blue}[1]{{\leavevmode\color{lightblue}{#1}}} %solarized blue 
+\newcommand{\green}[1]{{\leavevmode\color{javagreen}{#1}}} %command for green
+\newcommand{\red}[1]{{\leavevmode\color{sred}{#1}}} %solarized red
+\newcommand{\gray}[1]{{\leavevmode\color[gray]{0.5}{#1}}} %gray text
+
+%environment
+\newcommand{\tab}{\phantom{ssss}}
+%----------------
 
 % ------
 % Clickable URLs (optional)
@@ -55,30 +88,58 @@
 % Maketitle metadata
 \title{\vspace{-5mm}%
 	\fontsize{24pt}{12pt}\selectfont
-	\textbf{What's So Special About Philosophy?} 
+	\textbf{What's so Special about Philosophy?} 
 	}	
-\author{
+\author{%
 \fontsize{14pt}{14pt}\selectfont
-	a meander through Wikipedia's First Link Network \vspace{-2mm}
+	Unraveling Wikipedia's First Link Network \vspace{-2mm}\\
 	}
 \date{}
 
+%figures
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
 
+%text, figure spacing
+\raggedbottom
 
+%footnote withou marker
+\newcommand\blfootnote[1]{%
+  \begingroup
+    \renewcommand\thefootnote{}\footnote{#1}%
+      \addtocounter{footnote}{-1}%
+   \endgroup }
 %%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-
 \maketitle
 \thispagestyle{fancy}
+%========================ABSTRACT====================================
 
 \begin{abstract}
-\fontsize{12pt}{12pt}\selectfont
-\noindent Apples, oranges, and the most obscure Dylan song too---is any article a few clicks from Philosophy? The surprising answer is yes, $95\%$ of the time (according to a popular blog post).\\
+\fontsize{12pt}{12pt}
+\selectfont
 
-Wikipedia is the largest, most meticulously indexed collection of human knolwedge ever amassed. Yet, we have never closely examined the curious web tying one entry to another. By following the first link in an article, we connect entries to form a directed network within Wikipedia: Wikpedia's First Link Network. Our aim is to study Wikipedia's First Link Network for insight into the topics, ideas, people, objects, and events we link and perhaps why, or whether, all articles lead to philosophy.
+Apples, oranges, and the most obscure Dylan song too---is everything a few clicks from Philosophy? 
+Within Wikipedia, the surprising answer is yes: nearly all 
+paths lead to Philosophy.
+Wikipedia is the largest, most meticulously indexed collection of human knowledge ever amassed. 
+More than information about a topic though, Wikipedia is a marvelous web of naturally emerging relationships.  
+By following the First Link in an article, we connect entries to form a directed network within Wikipedia: Wikipedia's First Link Network. 
+Here we study the English edition of Wikipedia's First Link Network for insight into how we relate topics, ideas, people, objects, and events.  
 
+
+We algorithmically parse all 4.7 million articles to construct a map of Wikipedia's First Link Network. 
+In a novel approach to uncover structure, we traverse every possible path through the network, 
+measuring the accumulation of First Links, path lengths, basins, cycles, and even particular articles funneling links into the cycles.
+We discover many scale-free distributions, find Philosophy at a salient center, and uncover a flow from specific to general with 
+basins around fundamental notions such as Community, State, and Science. 
+Curiously, we also observe a gravitation towards topical articles including Health Care and Fossil Fuel.
+These findings enrich our view of how we connect and structure
+an ever growing load of information.
 
 \end{abstract}
-	
-\end{document}
 
+
+\end{document}
