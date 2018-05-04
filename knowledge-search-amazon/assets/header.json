@@ -1,7 +1,7 @@
 {
   "autoplayTransitionDelay" : 5,
   "author" : "",
-  "timestamp" : "2018-52-3 17:5:3",
+  "timestamp" : "2018-48-4 0:5:4",
   "loopSlideshow" : 0,
   "filename" : "knowledge_search_amazon",
   "autoplayBuildDelay" : 2,
@@ -50,8 +50,8 @@
   "minorVersion" : 2,
   "fonts" : [
     "Helvetica-LightOblique",
-    "HelveticaNeue",
     "Helvetica-Light",
+    "HelveticaNeue",
     "Noteworthy-Light",
     "Helvetica-Bold",
     "Helvetica",

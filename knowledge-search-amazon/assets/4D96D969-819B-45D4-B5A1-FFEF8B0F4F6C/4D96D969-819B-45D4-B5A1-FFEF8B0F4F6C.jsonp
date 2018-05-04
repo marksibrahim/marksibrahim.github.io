@@ -373,21 +373,21 @@ local_slide( {
             }
           },
           {
-            "text" : "path_lengths_dist.png",
-            "targetRectangle" : {
-              "y" : 257.85797119140625,
-              "x" : 1012.821533203125,
-              "width" : 791.6981201171875,
-              "height" : 593.68304443359375
-            }
-          },
-          {
             "text" : "pasted-image.png",
             "targetRectangle" : {
               "y" : 584.09759521484375,
               "x" : 1360.61181640625,
               "width" : 391.79290771484375,
               "height" : 203.73231506347656
+            }
+          },
+          {
+            "text" : "path_lengths_dist.png",
+            "targetRectangle" : {
+              "y" : 257.85797119140625,
+              "x" : 1012.821533203125,
+              "width" : 791.6981201171875,
+              "height" : 593.68304443359375
             }
           }
         ],

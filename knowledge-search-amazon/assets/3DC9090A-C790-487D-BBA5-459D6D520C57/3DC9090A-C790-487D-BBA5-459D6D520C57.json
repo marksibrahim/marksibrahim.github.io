@@ -351,15 +351,6 @@
       "automaticPlay" : false,
       "hyperlinks" : [
         {
-          "url" : "http:\/\/compstorylab.org\/share\/papers\/ibrahim2016a\/2_cycles.html",
-          "targetRectangle" : {
-            "y" : 50.144630432128963,
-            "x" : 4.02423095703125,
-            "width" : 1108.125,
-            "height" : 747.56890869140625
-          }
-        },
-        {
           "url" : "http:\/\/compstorylab.org\/share\/papers\/ibrahim2016a\/3_cycles.html",
           "targetRectangle" : {
             "y" : 202.20052191545756,
@@ -367,18 +358,18 @@
             "width" : 830.44228820763237,
             "height" : 838.25
           }
-        }
-      ],
-      "accessibility" : [
+        },
         {
-          "text" : "pasted-image.png",
+          "url" : "http:\/\/compstorylab.org\/share\/papers\/ibrahim2016a\/2_cycles.html",
           "targetRectangle" : {
             "y" : 50.144630432128963,
             "x" : 4.02423095703125,
             "width" : 1108.125,
             "height" : 747.56890869140625
           }
-        },
+        }
+      ],
+      "accessibility" : [
         {
           "text" : "pasted-image.png",
           "targetRectangle" : {
@@ -386,6 +377,15 @@
             "x" : 1069.1463012695312,
             "width" : 830.44228820763237,
             "height" : 838.25
+          }
+        },
+        {
+          "text" : "pasted-image.png",
+          "targetRectangle" : {
+            "y" : 50.144630432128963,
+            "x" : 4.02423095703125,
+            "width" : 1108.125,
+            "height" : 747.56890869140625
           }
         }
       ],

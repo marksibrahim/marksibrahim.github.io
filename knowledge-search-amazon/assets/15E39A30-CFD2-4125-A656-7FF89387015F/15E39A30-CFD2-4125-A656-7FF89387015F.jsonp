@@ -524,6 +524,24 @@ local_slide( {
         ],
         "accessibility" : [
           {
+            "text" : "pasted-image.png",
+            "targetRectangle" : {
+              "y" : 441.86334228515625,
+              "x" : 601.4871826171875,
+              "width" : 290.2979736328125,
+              "height" : 154.15048217773438
+            }
+          },
+          {
+            "text" : "pasted-image.png",
+            "targetRectangle" : {
+              "y" : 673.1650390625,
+              "x" : 966.28167724609375,
+              "width" : 316.40625,
+              "height" : 140.625
+            }
+          },
+          {
             "text" : "11 million articles",
             "targetRectangle" : {
               "y" : 621.48394823074341,
@@ -544,28 +562,10 @@ local_slide( {
           {
             "text" : "pasted-image.png",
             "targetRectangle" : {
-              "y" : 436.61044311523438,
-              "x" : 118.72076416015625,
-              "width" : 341.9932861328125,
-              "height" : 192.65625
-            }
-          },
-          {
-            "text" : "pasted-image.png",
-            "targetRectangle" : {
-              "y" : 6.2329087257385254,
-              "x" : 1311.7076416015625,
-              "width" : 471.15695190429688,
-              "height" : 264.47698974609375
-            }
-          },
-          {
-            "text" : "pasted-image.png",
-            "targetRectangle" : {
-              "y" : 441.86334228515625,
-              "x" : 601.4871826171875,
-              "width" : 290.2979736328125,
-              "height" : 154.15048217773438
+              "y" : 159.7001953125,
+              "x" : 205.21740722656244,
+              "width" : 169,
+              "height" : 122.10247778078065
             }
           },
           {
@@ -580,19 +580,10 @@ local_slide( {
           {
             "text" : "pasted-image.png",
             "targetRectangle" : {
-              "y" : 159.7001953125,
-              "x" : 205.21740722656244,
-              "width" : 169,
-              "height" : 122.10247778078065
-            }
-          },
-          {
-            "text" : "pasted-image.png",
-            "targetRectangle" : {
-              "y" : 673.1650390625,
-              "x" : 966.28167724609375,
-              "width" : 316.40625,
-              "height" : 140.625
+              "y" : 6.2329087257385254,
+              "x" : 1311.7076416015625,
+              "width" : 471.15695190429688,
+              "height" : 264.47698974609375
             }
           },
           {
@@ -611,6 +602,15 @@ local_slide( {
               "x" : 1320.8298346400261,
               "width" : 33,
               "height" : 60
+            }
+          },
+          {
+            "text" : "pasted-image.png",
+            "targetRectangle" : {
+              "y" : 436.61044311523438,
+              "x" : 118.72076416015625,
+              "width" : 341.9932861328125,
+              "height" : 192.65625
             }
           }
         ],

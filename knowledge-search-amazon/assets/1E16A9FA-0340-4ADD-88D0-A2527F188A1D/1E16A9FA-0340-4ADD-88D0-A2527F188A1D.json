@@ -396,39 +396,12 @@
       ],
       "accessibility" : [
         {
-          "text" : " df = sqlContext.read.format(‘com.databricks.spark.xml')",
+          "text" : "pasted-image.png",
           "targetRectangle" : {
-            "y" : 232.36072254180908,
-            "x" : 28.07551383972168,
-            "width" : 1112.58984375,
-            "height" : 39
-          }
-        },
-        {
-          "text" : ".options(rowTag='page').load(full_xml)",
-          "targetRectangle" : {
-            "y" : 271.36072254180908,
-            "x" : 172.07551383972168,
-            "width" : 754.9716796875,
-            "height" : 39
-          }
-        },
-        {
-          "text" : "network_df = df.select(“title”, “revision\\\").map(lambda s:",
-          "targetRectangle" : {
-            "y" : 427.36072254180908,
-            "x" : 46.07551383972168,
-            "width" : 1132.45751953125,
-            "height" : 39
-          }
-        },
-        {
-          "text" : "     (s[0],Article(s[1].text[0]).first_link())).collect()",
-          "targetRectangle" : {
-            "y" : 466.36072254180908,
-            "x" : 46.07551383972168,
-            "width" : 1132.45751953125,
-            "height" : 39
+            "y" : 629.07427978515625,
+            "x" : 305.940185546875,
+            "width" : 475.83334350585938,
+            "height" : 179.13395690917969
           }
         },
         {
@@ -567,12 +540,39 @@
           }
         },
         {
-          "text" : "pasted-image.png",
+          "text" : " df = sqlContext.read.format(‘com.databricks.spark.xml')",
           "targetRectangle" : {
-            "y" : 629.07427978515625,
-            "x" : 305.940185546875,
-            "width" : 475.83334350585938,
-            "height" : 179.13395690917969
+            "y" : 232.36072254180908,
+            "x" : 28.07551383972168,
+            "width" : 1112.58984375,
+            "height" : 39
+          }
+        },
+        {
+          "text" : ".options(rowTag='page').load(full_xml)",
+          "targetRectangle" : {
+            "y" : 271.36072254180908,
+            "x" : 172.07551383972168,
+            "width" : 754.9716796875,
+            "height" : 39
+          }
+        },
+        {
+          "text" : "network_df = df.select(“title”, “revision\\\").map(lambda s:",
+          "targetRectangle" : {
+            "y" : 427.36072254180908,
+            "x" : 46.07551383972168,
+            "width" : 1132.45751953125,
+            "height" : 39
+          }
+        },
+        {
+          "text" : "     (s[0],Article(s[1].text[0]).first_link())).collect()",
+          "targetRectangle" : {
+            "y" : 466.36072254180908,
+            "x" : 46.07551383972168,
+            "width" : 1132.45751953125,
+            "height" : 39
           }
         }
       ],

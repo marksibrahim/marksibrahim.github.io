@@ -30,9 +30,9 @@ local_slide( {
         "width" : 1920,
         "height" : 1080
       },
-      "EEE10FBC66547A6FF57512C7F472CBB2" : {
+      "5C72FF783C5DC9BC6A3ADDD40E1DC216" : {
         "type" : "texture",
-        "index" : 3,
+        "index" : 0,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -44,9 +44,9 @@ local_slide( {
         "width" : 1920,
         "height" : 1080
       },
-      "C25C25FF361FB24FC35F6B120D2F252D" : {
+      "EEE10FBC66547A6FF57512C7F472CBB2" : {
         "type" : "texture",
-        "index" : 0,
+        "index" : 3,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -582,7 +582,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "C25C25FF361FB24FC35F6B120D2F252D"
+                      "texture" : "5C72FF783C5DC9BC6A3ADDD40E1DC216"
                     }
                   ]
                 }

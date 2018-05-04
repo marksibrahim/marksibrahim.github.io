@@ -2,7 +2,7 @@ local_slide( {
   "name" : "9F52D1DB-CB17-43DC-A037-35A665B0969C",
   "json" : {
     "assets" : {
-      "1E44E059220E1D05C717DE31E3D9AA3E" : {
+      "CC167779F67EA097F13CF334F4E48991" : {
         "type" : "texture",
         "index" : 1,
         "assetRequest" : {
@@ -769,7 +769,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "1E44E059220E1D05C717DE31E3D9AA3E"
+                      "texture" : "CC167779F67EA097F13CF334F4E48991"
                     }
                   ]
                 }

@@ -354,15 +354,6 @@
       ],
       "accessibility" : [
         {
-          "text" : "pasted-image.png",
-          "targetRectangle" : {
-            "y" : 123.15072631835938,
-            "x" : 341.64077758789062,
-            "width" : 713.25,
-            "height" : 625.75
-          }
-        },
-        {
           "text" : "Isolate Influence at ",
           "targetRectangle" : {
             "y" : 376.02572774887085,
@@ -378,6 +369,15 @@
             "x" : 1213.3244173049927,
             "width" : 437.14999999999986,
             "height" : 60
+          }
+        },
+        {
+          "text" : "pasted-image.png",
+          "targetRectangle" : {
+            "y" : 123.15072631835938,
+            "x" : 341.64077758789062,
+            "width" : 713.25,
+            "height" : 625.75
           }
         }
       ],

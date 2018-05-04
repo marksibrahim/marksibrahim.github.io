@@ -396,6 +396,33 @@
       ],
       "accessibility" : [
         {
+          "text" : "pasted-image.png",
+          "targetRectangle" : {
+            "y" : 18.117067337036133,
+            "x" : 11.71699333190918,
+            "width" : 791,
+            "height" : 503
+          }
+        },
+        {
+          "text" : "pasted-image.png",
+          "targetRectangle" : {
+            "y" : 41.123691558837891,
+            "x" : 898.00006103515625,
+            "width" : 940.06439208984375,
+            "height" : 942.2154541015625
+          }
+        },
+        {
+          "text" : "pencil",
+          "targetRectangle" : {
+            "y" : 694.92022705078125,
+            "x" : 202.24555791700763,
+            "width" : 94.060546875000028,
+            "height" : 43
+          }
+        },
+        {
           "text" : "writing ",
           "targetRectangle" : {
             "y" : 684.52178955078125,
@@ -411,33 +438,6 @@
             "x" : 561.11706733169024,
             "width" : 124.54541015625,
             "height" : 32
-          }
-        },
-        {
-          "text" : "pencil",
-          "targetRectangle" : {
-            "y" : 694.92022705078125,
-            "x" : 202.24555791700763,
-            "width" : 94.060546875000028,
-            "height" : 43
-          }
-        },
-        {
-          "text" : "pasted-image.png",
-          "targetRectangle" : {
-            "y" : 41.123691558837891,
-            "x" : 898.00006103515625,
-            "width" : 940.06439208984375,
-            "height" : 942.2154541015625
-          }
-        },
-        {
-          "text" : "pasted-image.png",
-          "targetRectangle" : {
-            "y" : 18.117067337036133,
-            "x" : 11.71699333190918,
-            "width" : 791,
-            "height" : 503
           }
         }
       ],

@@ -30,6 +30,20 @@ local_slide( {
         "width" : 88,
         "height" : 65
       },
+      "B49728BF72952FACC438350AD1F5F76C" : {
+        "type" : "texture",
+        "index" : 14,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/583F6A24-71DA-4205-BEAC-CB9933FBF36C.pdf"
+        },
+        "width" : 382,
+        "height" : 49
+      },
       "ADBDA27D332451D4BE3AE65095CB258C" : {
         "type" : "texture",
         "index" : 3,
@@ -57,20 +71,6 @@ local_slide( {
         },
         "width" : 306,
         "height" : 93
-      },
-      "540BBF635A938978C03EA5292B805537" : {
-        "type" : "texture",
-        "index" : 14,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/583F6A24-71DA-4205-BEAC-CB9933FBF36C.pdf"
-        },
-        "width" : 382,
-        "height" : 49
       },
       "373B2D9567EE2CF58FA19C19672EE3FB" : {
         "type" : "texture",
@@ -577,24 +577,6 @@ local_slide( {
           {
             "text" : "+",
             "targetRectangle" : {
-              "y" : 691.28894007205963,
-              "x" : 1187.5783697962761,
-              "width" : 33,
-              "height" : 60
-            }
-          },
-          {
-            "text" : "pasted-image.png",
-            "targetRectangle" : {
-              "y" : 650.9764404296875,
-              "x" : 829.11590576171875,
-              "width" : 316.40625,
-              "height" : 140.625
-            }
-          },
-          {
-            "text" : "+",
-            "targetRectangle" : {
               "y" : 463.04852259159088,
               "x" : 933.15960758924484,
               "width" : 33,
@@ -613,19 +595,19 @@ local_slide( {
           {
             "text" : "pasted-image.png",
             "targetRectangle" : {
-              "y" : 580.53143310546875,
-              "x" : 916.65142822265625,
-              "width" : 240,
-              "height" : 44
+              "y" : 163.84072875976562,
+              "x" : 830.76116943359375,
+              "width" : 341.9932861328125,
+              "height" : 104.64995574951172
             }
           },
           {
-            "text" : "11 million articles",
+            "text" : "+",
             "targetRectangle" : {
-              "y" : 564.0228271484375,
-              "x" : 128.0491323852539,
-              "width" : 77.420000000000016,
-              "height" : 28
+              "y" : 691.28894007205963,
+              "x" : 1187.5783697962761,
+              "width" : 33,
+              "height" : 60
             }
           },
           {
@@ -640,10 +622,10 @@ local_slide( {
           {
             "text" : "pasted-image.png",
             "targetRectangle" : {
-              "y" : 390.70462036132812,
-              "x" : 780,
-              "width" : 380,
-              "height" : 46
+              "y" : 517.0318603515625,
+              "x" : 810.19049072265625,
+              "width" : 278.93829345703125,
+              "height" : 82.580421447753906
             }
           },
           {
@@ -658,19 +640,37 @@ local_slide( {
           {
             "text" : "pasted-image.png",
             "targetRectangle" : {
-              "y" : 163.84072875976562,
-              "x" : 830.76116943359375,
-              "width" : 341.9932861328125,
-              "height" : 104.64995574951172
+              "y" : 650.9764404296875,
+              "x" : 829.11590576171875,
+              "width" : 316.40625,
+              "height" : 140.625
             }
           },
           {
             "text" : "pasted-image.png",
             "targetRectangle" : {
-              "y" : 517.0318603515625,
-              "x" : 810.19049072265625,
-              "width" : 278.93829345703125,
-              "height" : 82.580421447753906
+              "y" : 580.53143310546875,
+              "x" : 916.65142822265625,
+              "width" : 240,
+              "height" : 44
+            }
+          },
+          {
+            "text" : "pasted-image.png",
+            "targetRectangle" : {
+              "y" : 390.70462036132812,
+              "x" : 780,
+              "width" : 380,
+              "height" : 46
+            }
+          },
+          {
+            "text" : "11 million articles",
+            "targetRectangle" : {
+              "y" : 564.0228271484375,
+              "x" : 128.0491323852539,
+              "width" : 77.420000000000016,
+              "height" : 28
             }
           }
         ],
@@ -3750,7 +3750,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "540BBF635A938978C03EA5292B805537"
+                      "texture" : "B49728BF72952FACC438350AD1F5F76C"
                     }
                   ]
                 }

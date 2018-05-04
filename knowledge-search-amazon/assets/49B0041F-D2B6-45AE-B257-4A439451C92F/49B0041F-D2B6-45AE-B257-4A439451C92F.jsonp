@@ -16,9 +16,9 @@ local_slide( {
         "width" : 182,
         "height" : 147
       },
-      "A61D45DFA8986616B9D4D1F7A02B7284" : {
+      "55958F62DA99F7EA389E0E0E50F9EF00" : {
         "type" : "texture",
-        "index" : 4,
+        "index" : 6,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -27,8 +27,22 @@ local_slide( {
         "url" : {
           "native" : "assets\/49B0041F-D2B6-45AE-B257-4A439451C92F.pdf"
         },
-        "width" : 221,
-        "height" : 180
+        "width" : 969,
+        "height" : 40
+      },
+      "3E83434221170A3F5FEE3C835DA3F5A7" : {
+        "type" : "texture",
+        "index" : 10,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/49B0041F-D2B6-45AE-B257-4A439451C92F.pdf"
+        },
+        "width" : 1920,
+        "height" : 1080
       },
       "CCFDD50A221D925B77DB0175AAE6BA78" : {
         "type" : "texture",
@@ -114,34 +128,6 @@ local_slide( {
         "width" : 375,
         "height" : 545
       },
-      "46482359257555AC0D9301D38F1DDA57" : {
-        "type" : "texture",
-        "index" : 10,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/49B0041F-D2B6-45AE-B257-4A439451C92F.pdf"
-        },
-        "width" : 1920,
-        "height" : 1080
-      },
-      "3E361A21930CB6FA16926ECD7EFF5C86" : {
-        "type" : "texture",
-        "index" : 6,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/49B0041F-D2B6-45AE-B257-4A439451C92F.pdf"
-        },
-        "width" : 944,
-        "height" : 40
-      },
       "2A6CB7FFD13151885A873EFED79D2DED" : {
         "type" : "texture",
         "index" : 1,
@@ -155,6 +141,20 @@ local_slide( {
         },
         "width" : 536,
         "height" : 433
+      },
+      "A61D45DFA8986616B9D4D1F7A02B7284" : {
+        "type" : "texture",
+        "index" : 4,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/49B0041F-D2B6-45AE-B257-4A439451C92F.pdf"
+        },
+        "width" : 221,
+        "height" : 180
       }
     },
     "events" : [
@@ -419,7 +419,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "46482359257555AC0D9301D38F1DDA57"
+                      "texture" : "3E83434221170A3F5FEE3C835DA3F5A7"
                     }
                   ]
                 }
@@ -450,28 +450,19 @@ local_slide( {
           {
             "text" : "pasted-image.png",
             "targetRectangle" : {
-              "y" : 254.92050170898438,
-              "x" : 1074.1717529296875,
-              "width" : 218.234130859375,
-              "height" : 176.15898132324219
+              "y" : 52.270832061767578,
+              "x" : 1325.8216552734375,
+              "width" : 372.11578369140625,
+              "height" : 300.37252807617188
             }
           },
           {
             "text" : "pasted-image.png",
             "targetRectangle" : {
-              "y" : 43.260532379150391,
-              "x" : 131.22349548339844,
-              "width" : 533.10797119140625,
-              "height" : 430.32571411132812
-            }
-          },
-          {
-            "text" : "pasted-image.png",
-            "targetRectangle" : {
-              "y" : 547.0819091796875,
-              "x" : 244.25674438476562,
-              "width" : 179.42999267578125,
-              "height" : 144.83621215820312
+              "y" : 668.89874267578125,
+              "x" : 588.279296875,
+              "width" : 312.80075073242188,
+              "height" : 252.49331665039062
             }
           },
           {
@@ -486,10 +477,19 @@ local_slide( {
           {
             "text" : "pasted-image.png",
             "targetRectangle" : {
-              "y" : 668.89874267578125,
-              "x" : 588.279296875,
-              "width" : 312.80075073242188,
-              "height" : 252.49331665039062
+              "y" : 547.0819091796875,
+              "x" : 244.25674438476562,
+              "width" : 179.42999267578125,
+              "height" : 144.83621215820312
+            }
+          },
+          {
+            "text" : "pasted-image.png",
+            "targetRectangle" : {
+              "y" : 43.260532379150391,
+              "x" : 131.22349548339844,
+              "width" : 533.10797119140625,
+              "height" : 430.32571411132812
             }
           },
           {
@@ -502,21 +502,21 @@ local_slide( {
             }
           },
           {
-            "text" : "pasted-image.png",
+            "text" : "a searchable knowledge graph powered by Wikipedia",
             "targetRectangle" : {
-              "y" : 52.270832061767578,
-              "x" : 1325.8216552734375,
-              "width" : 372.11578369140625,
-              "height" : 300.37252807617188
+              "y" : 561,
+              "x" : 476.15996948242167,
+              "width" : 967.68000000000029,
+              "height" : 48
             }
           },
           {
-            "text" : "a graph-based search engine powered by Wikipedia",
+            "text" : "pasted-image.png",
             "targetRectangle" : {
-              "y" : 561,
-              "x" : 488.3799694824217,
-              "width" : 943.24000000000024,
-              "height" : 48
+              "y" : 254.92050170898438,
+              "x" : 1074.1717529296875,
+              "width" : 218.234130859375,
+              "height" : 176.15898132324219
             }
           }
         ],
@@ -1740,10 +1740,10 @@ local_slide( {
                     "rotation" : 0,
                     "scale" : 1,
                     "position" : {
-                      "pointX" : 858.80850219726562,
+                      "pointX" : 871.30850219726562,
                       "pointY" : 577
                     },
-                    "width" : 944,
+                    "width" : 969,
                     "sublayerTransform" : [
                       1,
                       0,
@@ -1812,10 +1812,10 @@ local_slide( {
                         "rotation" : 0,
                         "scale" : 1,
                         "position" : {
-                          "pointX" : 573.19149780273438,
+                          "pointX" : 573.69149780273438,
                           "pointY" : 33
                         },
-                        "width" : 944,
+                        "width" : 969,
                         "sublayerTransform" : [
                           1,
                           0,
@@ -1849,7 +1849,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "3E361A21930CB6FA16926ECD7EFF5C86"
+                      "texture" : "55958F62DA99F7EA389E0E0E50F9EF00"
                     }
                   ]
                 }
