@@ -30,6 +30,23 @@ h6 {
     font-weight: 400;
 }
 
+.authors{
+    font-size: 14px;
+    font-weight: 400;
+    color: #3f4c5670;
+}
+
+.papers {
+    font-size: 18px;
+    font-weight: 350;
+}
+
+.paper-title {
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
 .sublead {
     font-size: 18px;
     font-weight: 200;
