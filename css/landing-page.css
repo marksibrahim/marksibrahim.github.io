@@ -274,3 +274,246 @@ p.copyright {
     text-decoration: none;
 }
 
+/* ============================================================
+   Bold prestige hero + stats + publication themes (variant A)
+   ============================================================ */
+
+/* Hero background: rich gradient (no broken image dependency) */
+.intro-header {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    text-align: center;
+    background: linear-gradient(135deg, #1c2a3a 0%, #2b3f57 45%, #4C7EAE 100%);
+    background-size: cover;
+}
+
+.hero {
+    padding-top: 6%;
+    padding-bottom: 4%;
+    color: #f7f8fa;
+}
+
+.hero-eyebrow {
+    font-family: "Lato", monospace;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: #b9d0e6;
+    margin-bottom: 18px;
+}
+
+.hero-name {
+    margin: 0;
+    font-size: 5em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+}
+
+.hero-title {
+    font-size: 21px;
+    font-weight: 400;
+    margin: 14px 0 6px;
+    color: #e7eef6;
+}
+
+.hero-tagline {
+    font-size: 17px;
+    font-weight: 300;
+    max-width: 720px;
+    margin: 0 auto 26px;
+    line-height: 1.6;
+    color: #cdddec;
+}
+
+.hero-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.hero-badge {
+    display: inline-block;
+    padding: 7px 16px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    color: #ffffff;
+    font-size: 13.5px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    backdrop-filter: blur(2px);
+}
+
+.intro-social-buttons .btn-default {
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+}
+
+@media (max-width: 767px) {
+    .hero-name {
+        font-size: 3em;
+    }
+    .hero-title {
+        font-size: 18px;
+    }
+}
+
+/* Stats strip */
+.stats-strip {
+    background: #ffffff;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 28px 0;
+}
+
+.stats-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.stat {
+    flex: 1 1 120px;
+    display: flex;
+    flex-direction: column;
+    padding: 6px 8px;
+}
+
+.stat-num {
+    font-size: 2.6em;
+    font-weight: 700;
+    color: #4C7EAE;
+    line-height: 1;
+}
+
+.stat-label {
+    margin-top: 8px;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #6b7884;
+}
+
+/* Publication theme headers */
+.pub-theme {
+    margin-top: 46px;
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2b3f57;
+    border-bottom: 3px solid #4C7EAE;
+    display: inline-block;
+}
+
+/* Publication cards */
+.pub {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.04);
+    padding: 22px 26px;
+    margin-bottom: 20px;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.pub:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.08);
+}
+
+.pub h2 {
+    font-size: 23px;
+    margin: 0;
+    flex: 1 1 auto;
+}
+
+.pub h4 {
+    font-size: 16px;
+    line-height: 1.55;
+    color: #3f4c56;
+    margin: 12px 0 6px;
+}
+
+.pub h5 {
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+.pub-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 10px;
+}
+
+/* Award / venue badges */
+.badge {
+    display: inline-block;
+    padding: 4px 11px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.badge-oral {
+    background: #fdeccd;
+    color: #9a6a00;
+    border: 1px solid #f0cf91;
+}
+
+.badge-spotlight {
+    background: #e8e1ff;
+    color: #5b3fb0;
+    border: 1px solid #cabaf2;
+}
+
+.badge-impact {
+    background: #ffe3da;
+    color: #c0392b;
+    border: 1px solid #f3b6a8;
+}
+
+.badge-venue {
+    background: #e7eef6;
+    color: #33597c;
+    border: 1px solid #c5d7e8;
+}
+
+/* Impact / adoption callout */
+.impact {
+    background: #f0f6ec;
+    border-left: 4px solid #6aab4f;
+    border-radius: 0 8px 8px 0;
+    padding: 9px 14px;
+    margin: 12px 0;
+    font-size: 14px;
+    color: #3d5a2e;
+}
+
+.impact a {
+    color: #2f7a1f;
+    font-weight: 600;
+}
+
+.earlier-heading {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #6b7884;
+    margin-top: 30px;
+}
+
+.scholar-icon {
+    vertical-align: -2px;
+    margin-left: 2px;
+}
+

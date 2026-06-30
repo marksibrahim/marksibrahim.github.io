@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--
-to do: 
-1. name in upper right disappears below first section of page 
-2. better section division with colors
-3. better project descriptions
--->
-
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Mark Ibrahim — Staff AI Researcher at FAIR, Meta Superintelligence Lab. Research on dependable multimodal and computer-use agents.">
+    <meta name="author" content="Mark Ibrahim">
 
     <title>Mark Ibrahim</title>
 
@@ -25,7 +18,7 @@ to do:
     <link href="css/landing-page.css" rel="stylesheet">
 
     <!-- font -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!-- font awesome for icons -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
@@ -37,13 +30,6 @@ to do:
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
         </script>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
@@ -51,7 +37,6 @@ to do:
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1">
@@ -60,44 +45,49 @@ to do:
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#"> Mark Ibrahim</font></a>
+                <a class="navbar-brand topnav" href="#">Mark Ibrahim</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#projects">projects</a>
+                        <a href="#research">research</a>
                     </li>
                     <li>
-                        <a href="#research">research</a>
+                        <a href="#projects">talks</a>
                     </li>
                     <li>
                         <a href="/musings/">musings</a>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
 
 
-    <!-- Header -->
+    <!-- Hero -->
     <a name="about"></a>
     <div class="intro-header">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h3><span class="blink_me"><i class="fa fa-terminal"></i></span>
-                            math <span class="blink_me">+</span> coding
-                        </h3>
-                        <hr class="intro-divider">
+                    <div class="hero">
+                        <p class="hero-eyebrow"><span class="blink_me"><i class="fa fa-terminal"></i></span> math <span class="blink_me">+</span> coding</p>
+                        <h1 class="hero-name">Mark Ibrahim</h1>
+                        <p class="hero-title">Staff AI Researcher &middot; FAIR, Meta Superintelligence Lab &middot; New York</p>
+                        <p class="hero-tagline">Building dependable multimodal &amp; computer-use agents.</p>
+
+                        <div class="hero-badges">
+                            <span class="hero-badge">Co-author &mdash; Self-Supervised Learning Cookbook (with Yann LeCun)</span>
+                        </div>
+
                         <ul class="list-inline intro-social-buttons">
                             <li>
                                 <a href="https://github.com/marksibrahim" class="btn btn-default btn-lg"><i
                                         class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="https://scholar.google.com/citations?user=AqYyoCMAAAAJ&hl=en" class="btn btn-default btn-lg"><svg
+                                        class="scholar-icon" viewBox="0 0 512 512" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M256 411.12L0 202.667 256 0l256 202.667zM256 459.347l-153.6-125.04C95.4 343.483 92.07 360.967 92.07 384c0 23.034 3.33 40.517 10.33 49.733L256 512l153.6-78.267c7-9.216 10.33-26.7 10.33-49.733 0-23.033-3.33-40.517-10.33-49.733z"/></svg> <span class="network-name">Scholar</span></a>
                             </li>
                             <li>
                                 <a href="Mark_Ibrahim_Resume.pdf" class="btn btn-default btn-lg"><i
@@ -111,318 +101,383 @@ to do:
                     </div>
                 </div>
             </div>
-
         </div>
-        <!-- /.container -->
-
     </div>
     <!-- /.intro-header -->
 
 
+    <!-- Stats strip -->
+    <div class="stats-strip">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat">
+                    <span class="stat-num">30+</span>
+                    <span class="stat-label">publications</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">3</span>
+                    <span class="stat-label">spotlight awards</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">2</span>
+                    <span class="stat-label">Oral Awards &middot; top 1%</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">~10</span>
+                    <span class="stat-label">years of AI research</span>
+                </div>
+            </div>
+        </div>
     </div>
+
+
     <a name="publications"></a>
     <div class="content-section-a">
 
         <div class="container">
 
             <div class="row">
-                <section class="vh-100 bg-body-tertiary">
-                    <div class="container py-5 h-100">
-                        <div class="row d-flex justify-content-center align-items-center h-100">
-                            <div class="col col-lg-12 col-xl-8">
-                                <figure class="note note-primary p-4">
-                                    <blockquote class="blockquote">
-                                        <p class="pb-2">
-                                            I’m interested in how we can build reliable multimodal AI systems that can
-                                            discover and compose the right first principles.
-                                        </p>
-                                    </blockquote>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
+                <div class="col col-lg-12 col-xl-8">
+                    <figure class="note note-primary p-4">
+                        <blockquote class="blockquote">
+                            <p class="pb-2">
+                                I&rsquo;m interested in how we can build reliable multimodal AI systems that can
+                                discover and compose the right first principles &mdash; from foundation-model
+                                training and evaluation to the computer-use agents they power.
+                            </p>
+                        </blockquote>
+                    </figure>
+                </div>
             </div>
+
             <div class="row">
                 <a name="research"></a>
                 <div class="col-lg-12 col-sm-12">
-                    <h4>SELECTED RESEARCH
-
-                    </h4>
+                    <h4>SELECTED RESEARCH</h4>
                     <p>
                         <a href="https://scholar.google.com/citations?user=AqYyoCMAAAAJ&hl=en">Latest in
                             Google Scholar
-                            <i class="fa fa-book"></i>
+                            <svg class="scholar-icon" viewBox="0 0 512 512" width="13" height="13" aria-hidden="true"><path fill="currentColor" d="M256 411.12L0 202.667 256 0l256 202.667zM256 459.347l-153.6-125.04C95.4 343.483 92.07 360.967 92.07 384c0 23.034 3.33 40.517 10.33 49.733L256 512l153.6-78.267c7-9.216 10.33-26.7 10.33-49.733 0-23.033-3.33-40.517-10.33-49.733z"/></svg>
                         </a>
                     </p>
+
                     <div class="news-container">
-                        <h4 class="news-header">🗞️ News & Updates</h4>
+                        <h4 class="news-header">🗞️ News &amp; Updates</h4>
                         <ul class="news-list">
                             <li class="news-item">
                                 <span class="news-date">May 2026</span>
-                                <span class="news-content">I'll be in Rio at ICLR 2026 presenting an oral on <a href="https://arxiv.org/abs/2511.20766" target="_blank">OpenApps</a>. Reach out if you'll be there! 🇧🇷</span>
+                                <span class="news-content">I'll be in Rio at ICLR 2026 presenting an <b>oral (top 1%)</b> on <a href="https://arxiv.org/abs/2511.20766" target="_blank">OpenApps</a>. Reach out if you'll be there! 🇧🇷</span>
+                            </li>
+                            <li class="news-item">
+                                <span class="news-date">2026</span>
+                                <span class="news-content"><a href="https://arxiv.org/abs/2602.04118" target="_blank">Learning to Reason in 13 Parameters</a> (TinyLoRA) hit the <a href="https://news.ycombinator.com/item?id=47541733" target="_blank">front page of Hacker News</a> and was implemented in <a href="https://huggingface.co/docs/peft/main/en/package_reference/tinylora" target="_blank">Hugging Face PEFT</a>. ⚡</span>
+                            </li>
+                            <li class="news-item">
+                                <span class="news-date">2026</span>
+                                <span class="news-content">OpenApps is now integrated into <a href="https://huggingface.co/docs/openenv/environments/openapp" target="_blank">OpenEnv</a> (the Hugging Face / PyTorch RL environment) and <a href="https://github.com/servicenow/browsergym" target="_blank">BrowserGym</a>. 🧩</span>
                             </li>
                             <li class="news-item">
                                 <span class="news-date">Dec 2025</span>
-                                <span class="news-content">I'll be at NeurIPS 2025 sharing some of our latest work: <a href="https://huggingface.co/datasets/facebook/Common-O" target="_blank">Common-O</a> (a new multimodal reasoning benchmark), <a href="https://huggingface.co/datasets/facebook/AbstentionBench" target="_blank">AbstentionBench</a> (measuring LLMs' ability to recognize when they don't know), <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/117464" target="_blank">Verbatim Memorization</a> in LLMs, and a study of <a href="https://arxiv.org/abs/2505.12477" target="_blank">JEPA architectures</a> (spotlight award). Reach out if you'll be in San Diego! ☀️</span>
+                                <span class="news-content">I'll be at NeurIPS 2025 sharing some of our latest work: <a href="https://huggingface.co/datasets/facebook/Common-O" target="_blank">Common-O</a> (a new multimodal reasoning benchmark, 30k+ downloads), <a href="https://huggingface.co/datasets/facebook/AbstentionBench" target="_blank">AbstentionBench</a> (measuring LLMs' ability to recognize when they don't know), <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/117464" target="_blank">Verbatim Memorization</a> in LLMs, and a study of <a href="https://arxiv.org/abs/2505.12477" target="_blank">JEPA architectures</a> (spotlight award). Reach out if you'll be in San Diego! ☀️</span>
                             </li>
                         </ul>
                     </div>
 
-                    <h2>OpenApps: simulating app variations for computer-use agent reliability</h2>
-                    <h4>
-                        We open-source OpenApps, a new Python-based research environment for generating data to train
-                        and evaluate computer-use agents. Oral Award (top 1%), ICLR 2026.
 
-                    </h4>
-                    <h5>
-                        <a href="https://x.com/marksibrahim/status/1998777989056565325?s=20">📣 code release</a>,<a
-                            href="https://arxiv.org/abs/2511.20766"> 📃 paper</a>, and <a
-                            href="https://www.youtube.com/watch?v=gzNW_LXE7OE">🎬 video tutorial</a>.
-                    </h5>
-                    <p class="authors">
-                        Karen Ullrich, Jingtong Su, Claudia Shi, Arjun Subramonian, Amir Bar, Ivan Evtimov, Nikolaos
-                        Tsilivis, Randall Balestriero, Julia Kempe, <b>Mark Ibrahim</b>
-                    </p>
-                    <br>
+                    <!-- ===================== Computer-Use Agents ===================== -->
+                    <h3 class="pub-theme">🖱️ Computer-Use Agents</h3>
 
-                    <h2>AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions</h2>
-                    <h4>
-                        We evaluate LLMs’ capacity for <em>abstention</em>: the skill of knowing when NOT to
-                        answer!
-                        We find reasoning LLMs struggle with unanswerable questions and hallucinate. NeurIPS,
-                        2025
-                    </h4>
-                    <h5>
-                        > <a href="https://arxiv.org/abs/2506.09038">paper</a> + <a
-                            href="https://github.com/facebookresearch/AbstentionBench">code</a> +<a
-                            href="https://huggingface.co/datasets/facebook/AbstentionBench">data</a>
-                    </h5>
-                    <p class="authors">
-                        Polina Kirichenko*, Samuel J. Bell*, Kamalika Chaudhuri, <b>Mark Ibrahim*</b>
-                    </p>
-                    <h4>
-                        cited in OpenAI's GPT-5 technical report & used by UK Security Institute’s Inspect Evals
-                    </h4>
-                    <br>
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2>OpenApps: simulating app variations for computer-use agent reliability</h2>
+                            <span class="badge badge-oral">★ ICLR 2026 Oral · top 1%</span>
+                            <span class="badge badge-oral">★ Oral · NE Agents Day</span>
+                        </div>
+                        <h4>
+                            We open-source OpenApps, a Python research environment that generates endless versions of
+                            six real apps &mdash; with ground-truth state and rewards, on a single CPU &mdash; to train
+                            and evaluate computer-use agents across the variations they break on in deployment.
+                        </h4>
+                        <div class="impact">
+                            Integrated into <a href="https://huggingface.co/docs/openenv/environments/openapp">OpenEnv</a>
+                            (the Hugging Face / PyTorch RL environment) and
+                            <a href="https://github.com/servicenow/browsergym">BrowserGym</a> &middot; oral at
+                            <a href="https://ne-agents-day.github.io/">NE Agents Day</a>
+                        </div>
+                        <h5>
+                            <a href="https://x.com/marksibrahim/status/1998777989056565325?s=20">📣 code release</a>,
+                            <a href="https://arxiv.org/abs/2511.20766">📃 paper</a>, and
+                            <a href="https://www.youtube.com/watch?v=gzNW_LXE7OE">🎬 video tutorial</a>
+                        </h5>
+                        <p class="authors">
+                            Karen Ullrich, Jingtong Su, Claudia Shi, Arjun Subramonian, Amir Bar, Ivan Evtimov, Nikolaos
+                            Tsilivis, Randall Balestriero, Julia Kempe, <b>Mark Ibrahim</b>
+                        </p>
+                    </div>
 
-                    <h2>The Factorization Curse: Which Tokens You Predict Underlie the Reversal Curse and More
-                    </h2>
-                    <h4>
-                        We show training transformers to predict multiple tokens ahead and back (instead of just
-                        the
-                        single next token) improves models' ability to retrieve knowledge. NeurIPS, 2024
-                    </h4>
-                    <h5>
-                        > <a href="https://arxiv.org/abs/2406.05183">paper</a>
-                    </h5>
-                    <p class="authors">
-                        Ouail Kitouni, Niklas Nolte, Diane Bouchacourt, Adina Williams, Mike Rabbat, <b>Mark
-                            Ibrahim</b>
-                    </p>
-                    <h4>
-                        In a followup, we find the same objective without tweaks can improve transformer's
-                        ability to
-                        plan in <a href="https://facebookresearch.github.io/maze_navigation_MLMU/">maze
-                            navigation</a>!
-                    </h4>
-                    <br>
 
-                    <h2>\(\mathbb{X}\)-Sample Contrastive Loss: Improving Contrastive Learning with Sample
-                        Similarity
-                        Graphs</h2>
-                    <h4>
-                        We propose a graph-based contrastive loss that explicitly encodes relationships across
-                        samples
-                        during
-                        training. ICLR, 2025
-                    </h4>
-                    <h5>
-                        > <a href="https://arxiv.org/abs/2407.18134">paper</a>
-                    </h5>
-                    <p class="authors">
-                        Vlad Sobal, <b>Mark Ibrahim</b>, Randall Balestriero, Vivien Cabannes, Diane
-                        Bouchacourt, Pietro
-                        Astolfi, Kyunghyun Cho, Yann LeCun
-                    </p>
-                    <br>
+                    <!-- ===================== Multimodal Training & Eval ===================== -->
+                    <h3 class="pub-theme">🖼️ Multimodal Training &amp; Evaluation</h3>
 
-                    <h2>Does Progress On Object Recognition Benchmarks Improve Real-World
-                        Generalization?</h2>
-                    <h4>
-                        progress on standard benchmarks fails to improve geographic disparities in
-                        today's best models,
-                        ICLR 2024.
-                    </h4>
-                    <h5>
-                        > <a href="https://arxiv.org/abs/2307.13136">paper</a>
-                    </h5>
-                    <p class="authors">
-                        Megan Richards, Polina Kirichenko, Diane Bouchacourt, <b>Mark Ibrahim</b>
-                    </p>
-                    <br>
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2>Common-O: Hallucination in Visual Reasoning Across Scenes</h2>
+                            <span class="badge badge-venue">NeurIPS 2025</span>
+                        </div>
+                        <h4>
+                            Multimodal models can perceive objects but hallucinate when reasoning across scenes. Common-O
+                            is a decontaminated multi-scene reasoning benchmark on which today's best models score under
+                            25%.
+                        </h4>
+                        <div class="impact">🔥 30k+ Hugging Face downloads</div>
+                        <h5>
+                            > <a href="https://arxiv.org/abs/2511.03768">paper</a> +
+                            <a href="https://huggingface.co/datasets/facebook/Common-O">data</a>
+                        </h5>
+                        <p class="authors">
+                            Candace Ross, Florian Bordes, Adina Williams, Polina Kirichenko, <b>Mark Ibrahim</b>
+                        </p>
+                    </div>
 
-                    <h2>Shortcuts Come in Multiples Where Mitigating One Amplifies Others</h2>
-                    <h4>
-                        a method for and study of how deep learning techniques cope with multiple
-                        shortcuts,
-                        CVPR 2023.
-                    </h4>
-                    <h5>
-                        > <a href="https://arxiv.org/abs/2212.04825">paper</a>
-                        +
-                        <a href="https://github.com/facebookresearch/Whac-A-Mole">code</a>
-                    </h5>
-                    <p class="authors">
-                        Zhiheng Li, Ivan Evtimov*, Albert Gordo, Caner Hazirbas, Tal Hassner, Cristian
-                        Canton Ferrer,
-                        Chenliang Xu, <b>Mark Ibrahim</b>*
-                    </p>
-                    <br>
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2>LLIP: Latent-Language Image Pretraining</h2>
+                            <span class="badge badge-venue">ICML 2024</span>
+                        </div>
+                        <h4>
+                            A state-of-the-art open-weight vision encoder (ViT-G) with optimized visual cross-attention.
+                            Scaled to 5B samples, LLIP outperforms MetaCLIP by an average of 2.9% across 22 zero-shot
+                            benchmarks and 6% R@1 on COCO retrieval.
+                        </h4>
+                        <h5>
+                            > <a href="https://arxiv.org/abs/2405.00740">paper</a> +
+                            <a href="https://huggingface.co/lavoies/llip-vitG-14-224">weights</a>
+                        </h5>
+                        <p class="authors">
+                            Samuel Lavoie, Polina Kirichenko, <b>Mark Ibrahim</b>, Mahmoud Assran, Andrew Gordon Wilson,
+                            Aaron Courville, Nicolas Ballas
+                        </p>
+                    </div>
 
-                    <h2>ImageNet-X: Understanding Model Mistakes with Factor of Variation Annotations
-                    </h2>
-                    <h4>
-                        we find surprisingly similar strengths and vulnerabilities across more than
-                        2,200 deep learning
-                        models,
-                        ICLR Spotlight 2023.
-                    </h4>
-                    <h5>
-                        > <a href="https://arxiv.org/abs/2211.01866">paper</a>
-                        +
-                        <a href="https://facebookresearch.github.io/imagenetx/site/home">website</a>
-                    </h5>
-                    <p class="authors">
-                        Badr Youbi Idrissi, Diane Bouchacourt, Randall Balestriero, Ivan Evtimov, Caner
-                        Hazirbas,
-                        Nicolas Ballas, Pascal Vincent, Michal Drozdzal, David Lopez-Paz,
-                        <b>Mark Ibrahim</b>
-                    </p>
-                    <br>
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2>UniBench: Visual Reasoning Requires Rethinking Vision-Language Beyond Scaling</h2>
+                            <span class="badge badge-venue">NeurIPS 2024</span>
+                        </div>
+                        <h4>
+                            A 50+ benchmark suite of vision-language capabilities revealing that scaling alone doesn't
+                            improve visual reasoning &mdash; evaluate a model across 7 capability types on 1 GPU in
+                            minutes.
+                        </h4>
+                        <h5>
+                            > <a href="https://arxiv.org/abs/2408.04810">paper</a>
+                        </h5>
+                        <p class="authors">
+                            Haider Al-Tahan, Quentin Garrido, Randall Balestriero, Diane Bouchacourt, Caner Hazirbas,
+                            <b>Mark Ibrahim</b>
+                        </p>
+                    </div>
 
-                    <!-- <h2>The Robustness Limits of SoTa Vision Models to Natural Variation </h2>
-                    <h4>
-                        even today's best models are brittle to common changes in pose, background, etc. TMLR 2023
-                    </h4>
-                    <h5>
-                        > <a href="https://arxiv.org/abs/2210.13604">paper</a>
-                    </h5>
-                    <p class="authors">
-                        <b>Mark Ibrahim</b>, Quentin Garrido, Ari Morcos, Diane Bouchacourt
-                    </p>
-                    <br> -->
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2>\(\mathbb{X}\)-Sample Contrastive Loss: Improving Contrastive Learning with Sample
+                                Similarity Graphs</h2>
+                            <span class="badge badge-venue">ICLR 2025</span>
+                        </div>
+                        <h4>
+                            A graph-based contrastive loss that explicitly encodes relationships across samples during
+                            training, improving efficiency and robustness.
+                        </h4>
+                        <h5>
+                            > <a href="https://arxiv.org/abs/2407.18134">paper</a>
+                        </h5>
+                        <p class="authors">
+                            Vlad Sobal, <b>Mark Ibrahim</b>, Randall Balestriero, Vivien Cabannes, Diane Bouchacourt,
+                            Pietro Astolfi, Kyunghyun Cho, Yann LeCun
+                        </p>
+                    </div>
 
-                    <!-- <h2>Grounding Inductive Biases in Natural Images</h2>
-                    <h4>
-                        invariance in deep learning stems from variations in data, NeurIPS 2021.
-                    </h4>
-                    <h5>
-                        > <a href="https://arxiv.org/abs/2106.05121">paper</a>
-                        +
-                        <a href="https://github.com/facebookresearch/grounding-inductive-biases">code</a>
-                    </h5>
-                    <p class="authors">
-                        Diane Bouchacourt*, <b>Mark Ibrahim</b>*, Ari S. Morcos
-                    </p>
-                    <br> -->
 
-                    <!-- <h2>Building AI that can understand variation in the world around us</h2>
-                    <h4>
-                        Addressing the Topological Defects of Disentanglement via Distributed Operators, 2021
-                    </h4>
-                    <h5>
-                        > <a href="https://arxiv.org/abs/2102.05623">paper</a>
-                        +
-                        <a
-                            href="https://github.com/facebookresearch/Addressing-the-Topological-Defects-of-Disentanglement">code</a>
-                        +
-                        <a
-                            href="https://ai.facebook.com/blog/building-ai-that-can-understand-variation-in-the-world-around-us/">blog
-                            post</a>
-                    </h5>
-                    <p class="authors">
-                        Diane Bouchacourt, Mark Ibrahim, Stéphane Deny
-                    </p> -->
-                    <br>
+                    <!-- ===================== Alignment & Reasoning ===================== -->
+                    <h3 class="pub-theme">🧭 Alignment &amp; Reasoning</h3>
 
-                    <!-- <h2>RidgeSketch</h2>
-                    <h4>
-                        A Fast sketching based solver for large scale ridge regression, SIAM Journal on Matrix Analysis
-                        and Applications 2022
-                    </h4>
-                    <h5>
-                        > <a href="https://arxiv.org/abs/2105.05565">paper</a>
-                        +
-                        <a href="https://github.com/facebookresearch/RidgeSketch"> open source library</a>
-                    </h5>
-                    <p class="authors">
-                        Nidham Gazagnadou, Mark Ibrahim, Robert M. Gower
-                    </p>
-                    <br> -->
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2>Learning to Reason in 13 Parameters (TinyLoRA)</h2>
+                            <span class="badge badge-impact">🔥 Front page of Hacker News</span>
+                        </div>
+                        <h4>
+                            We show GRPO needs to update as few as 13 parameters (26 bytes) to bring Qwen2.5-8B within 5%
+                            of full-finetuning GSM8K performance &mdash; recovering 90% of reasoning gains while training
+                            1000&times; fewer parameters.
+                        </h4>
+                        <div class="impact">
+                            Implemented in <a href="https://huggingface.co/docs/peft/main/en/package_reference/tinylora">Hugging Face PEFT (TinyLoRA)</a>
+                            &middot; reached the <a href="https://news.ycombinator.com/item?id=47541733">front page of Hacker News</a>
+                        </div>
+                        <h5>
+                            > <a href="https://arxiv.org/abs/2602.04118">paper</a>
+                        </h5>
+                        <p class="authors">
+                            John X. Morris, Niloofar Mireshghallah, <b>Mark Ibrahim</b>, Saeed Mahloujifar
+                        </p>
+                    </div>
 
-                    <h2>Global Explanations for Neural Networks</h2>
-                    <h4>
-                        Mapping the Landscape of Predictions, ACM AAAI 2019
-                    </h4>
-                    <h5>
-                        > <a href="https://arxiv.org/abs/1902.02384">paper</a>
-                        +
-                        <a href="https://github.com/capitalone/global-attribution-mapping"> open source
-                            library</a>
-                        +
-                        <a
-                            href="https://www.capitalone.com/tech/machine-learning/open-source-global-attribution-mapping-for-neural-networks">blog
-                            post</a>
-                    </h5>
-                    <p class="authors">
-                        <b>Mark Ibrahim</b>, Melissa Louie, Ceena Modarres, John Paisley (Columbia
-                        University)
-                    </p>
-                    <br>
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2>AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions</h2>
+                            <span class="badge badge-venue">NeurIPS 2025</span>
+                        </div>
+                        <h4>
+                            We evaluate LLMs' capacity for <em>abstention</em> &mdash; the skill of knowing when NOT to
+                            answer. We find reasoning LLMs struggle with unanswerable questions and hallucinate.
+                        </h4>
+                        <div class="impact">
+                            Used by OpenAI in the GPT-5 system card &middot; adopted by the UK AI Security Institute's
+                            Inspect Evals &middot; cited in the
+                            <a href="https://arxiv.org/abs/2606.12429">MuseSpark Preparedness Report</a>
+                        </div>
+                        <h5>
+                            > <a href="https://arxiv.org/abs/2506.09038">paper</a> +
+                            <a href="https://github.com/facebookresearch/AbstentionBench">code</a> +
+                            <a href="https://huggingface.co/datasets/facebook/AbstentionBench">data</a>
+                        </h5>
+                        <p class="authors">
+                            Polina Kirichenko*, Samuel J. Bell*, Kamalika Chaudhuri, <b>Mark Ibrahim*</b>
+                        </p>
+                    </div>
 
-                    <!-- <h2>Mixed Membership Recurrent Neural Networks</h2>
-                    <h4>
-                        Modeling varying time intervals and group dynamics, ACM International Conference on AI in
-                        Finance 2021
-                    </h4>
-                    <h5>
-                        > <a href="https://arxiv.org/abs/1812.09645">paper</a>
-                    </h5>
-                    <p class="authors">
-                        Ghazal Fazelnia, Mark Ibrahim, Ceena Modarres, Kevin Wu, John Paisley
-                    </p>
-                    <br>
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2>The Factorization Curse: Which Tokens You Predict Underlie the Reversal Curse and More</h2>
+                            <span class="badge badge-venue">NeurIPS 2024</span>
+                        </div>
+                        <h4>
+                            We show that training transformers to predict multiple tokens ahead and back (instead of just
+                            the single next token) improves models' ability to retrieve knowledge.
+                        </h4>
+                        <h5>
+                            > <a href="https://arxiv.org/abs/2406.05183">paper</a>
+                        </h5>
+                        <p class="authors">
+                            Ouail Kitouni, Niklas Nolte, Diane Bouchacourt, Adina Williams, Mike Rabbat, <b>Mark Ibrahim</b>
+                        </p>
+                        <h4>
+                            In a follow-up, the same objective improves a transformer's ability to plan in
+                            <a href="https://facebookresearch.github.io/maze_navigation_MLMU/">maze navigation</a>
+                            (MLM-U), converging 2&times; faster in GPU hours.
+                        </h4>
+                    </div>
 
-                    <h2>
-                        Influence in Directed Cyclic Graphs
-                    </h2>
-                    <h4>
-                        Connecting Every Bit of Knowledge: Wikipedia's First Link Network. 2017,
-                        <a href="http://compstorylab.org/share/papers/ibrahim2016a/index.html">Journal of Computational
-                            Science.</a>
-                    </h4>
-                    <p class="authors">
-                        Mark Ibrahim, Christoper Danforth, Peter Dodds (U. Vermont Mathematics Department)
-                    </p>
-                    <br> -->
+
+                    <!-- ===================== SSL & Generalization ===================== -->
+                    <h3 class="pub-theme">🧪 Self-Supervised Learning &amp; Generalization</h3>
+
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2>Discovering Environments with XRM</h2>
+                            <span class="badge badge-oral">★ ICML 2024 · top 1%</span>
+                        </div>
+                        <h4>
+                            A method to automatically discover the spurious environments that break out-of-distribution
+                            generalization &mdash; without human annotations.
+                        </h4>
+                        <h5>
+                            > <a href="https://arxiv.org/abs/2309.16748">paper</a>
+                        </h5>
+                        <p class="authors">
+                            Mohammad Pezeshki, Diane Bouchacourt, <b>Mark Ibrahim</b>, Nicolas Ballas, Pascal Vincent,
+                            David Lopez-Paz
+                        </p>
+                    </div>
+
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2>ImageNet-X: Understanding Model Mistakes with Factor of Variation Annotations</h2>
+                            <span class="badge badge-spotlight">★ ICLR 2023 Spotlight · top 5%</span>
+                        </div>
+                        <h4>
+                            We find surprisingly similar strengths and vulnerabilities across more than 2,200 deep
+                            learning models.
+                        </h4>
+                        <h5>
+                            > <a href="https://arxiv.org/abs/2211.01866">paper</a> +
+                            <a href="https://facebookresearch.github.io/imagenetx/site/home">website</a>
+                        </h5>
+                        <p class="authors">
+                            Badr Youbi Idrissi, Diane Bouchacourt, Randall Balestriero, Ivan Evtimov, Caner Hazirbas,
+                            Nicolas Ballas, Pascal Vincent, Michal Drozdzal, David Lopez-Paz, <b>Mark Ibrahim</b>
+                        </p>
+                    </div>
+
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2>Shortcuts Come in Multiples Where Mitigating One Amplifies Others</h2>
+                            <span class="badge badge-venue">CVPR 2023</span>
+                        </div>
+                        <h4>
+                            A method for and study of how deep learning techniques cope with multiple shortcuts
+                            (Whac-A-Mole).
+                        </h4>
+                        <h5>
+                            > <a href="https://arxiv.org/abs/2212.04825">paper</a> +
+                            <a href="https://github.com/facebookresearch/Whac-A-Mole">code</a>
+                        </h5>
+                        <p class="authors">
+                            Zhiheng Li, Ivan Evtimov*, Albert Gordo, Caner Hazirbas, Tal Hassner, Cristian Canton Ferrer,
+                            Chenliang Xu, <b>Mark Ibrahim</b>*
+                        </p>
+                    </div>
+
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2>Does Progress on Object Recognition Benchmarks Improve Real-World Generalization?</h2>
+                            <span class="badge badge-venue">ICLR 2024</span>
+                        </div>
+                        <h4>
+                            Progress on standard benchmarks fails to improve &mdash; and can worsen &mdash; geographic
+                            disparities in today's best models.
+                        </h4>
+                        <h5>
+                            > <a href="https://arxiv.org/abs/2307.13136">paper</a>
+                        </h5>
+                        <p class="authors">
+                            Megan Richards, Polina Kirichenko, Diane Bouchacourt, <b>Mark Ibrahim</b>
+                        </p>
+                    </div>
+
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2><a href="https://arxiv.org/abs/2304.12210">A Cookbook of Self-Supervised Learning</a></h2>
+                            <span class="badge badge-venue">ICML Tutorial 2023</span>
+                        </div>
+                        <h4>
+                            Recipes for training and evaluating self-supervised learning systems &mdash; co-authored with
+                            <a href="https://twitter.com/randall_balestr/status/1652294821833326593?s=20">Randall Balestriero</a>,
+                            <a href="https://twitter.com/ylecun/status/1650798206283051009?s=20">Yann LeCun</a>, and many others.
+                        </h4>
+                        <div class="impact">
+                            Featured on the <a href="https://ai.meta.com/blog/self-supervised-learning-practical-guide/">Meta AI blog</a>
+                        </div>
+                    </div>
+
+
                     <hr>
-                    <h2> <a href="https://arxiv.org/abs/2304.12210">A Cookbook of Self-Supervised
-                            Learning</a></h2>
-                    <h4>
-                        co-author along with <a
-                            href="https://twitter.com/randall_balestr/status/1652294821833326593?s=20">
-                            Randall
-                            Balestriero </a>, <a href="https://twitter.com/ylecun/status/1650798206283051009?s=20">Yann
-                            LeCun</a>, and many others
-                    </h4>
-                    <!-- <h2> Neural Networks</h2>
-                    <h4>
-                        my <a
-                            href="https://www.notion.so/Neural-Networks-and-Deep-Learning-f7ff3bae25de4f0085fd52fc8e810827">notes</a>
-                        on what they are and how they learn
-                    </h4> -->
+                    <h4 class="earlier-heading">Earlier work</h4>
+                    <div class="pub">
+                        <div class="pub-head">
+                            <h2>Global Explanations for Neural Networks: Mapping the Landscape of Predictions</h2>
+                            <span class="badge badge-venue">AAAI 2019</span>
+                        </div>
+                        <h5>
+                            > <a href="https://arxiv.org/abs/1902.02384">paper</a> +
+                            <a href="https://github.com/capitalone/global-attribution-mapping">open source library</a> +
+                            <a href="https://www.capitalone.com/tech/machine-learning/open-source-global-attribution-mapping-for-neural-networks">blog post</a>
+                        </h5>
+                        <p class="authors">
+                            <b>Mark Ibrahim</b>, Melissa Louie, Ceena Modarres, John Paisley (Columbia University)
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -437,11 +492,7 @@ to do:
     <a name="projects"></a>
     <div class="content-section-b">
 
-        <!-- /.container -->
-
-        <div class="content-section-b">
-
-            <div class="container">
+        <div class="container">
 
                 <div class="row">
                     <div class="col-lg-10">
@@ -550,7 +601,7 @@ to do:
                                         Graph-Based Search Engine"</a></i></span>
                         </p>
                         <br>
-                        <h2>Advising & Mentorship</h2>
+                        <h2>Advising &amp; Mentorship</h2>
                         <p class="papers">
                             <br>
                             <span class="paper-title"> <b>Research Internship Advising:</b>
@@ -605,14 +656,7 @@ to do:
                             <a href="http://markibrahim.me/course_sites/algebra/">College Algebra</a> 42
                             estudiantes.
                         </p>
-                        </p>
                         <br>
-                    </div>
-                    <div class="col-lg-6">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-10">
                     </div>
                     <div class="col-lg-6">
                     </div>
@@ -640,6 +684,8 @@ to do:
       "@context": "http://schema.org",
       "@type": "Person",
       "name": "Mark Ibrahim",
+      "jobTitle": "Staff AI Researcher",
+      "affiliation": "FAIR, Meta",
       "url": "http://markibrahim.me"
     }
     </script>
@@ -650,23 +696,22 @@ to do:
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
 
-        <! -- hide navbar on scroll or click-->
-            <script>
-                $(function () {
-                    $(document).on("mousewheel", function () {
-                        if ($(document).scrollTop() > 100) {
-                            $('.topnav').hide();
-                        } else {
-                            $('.topnav').show();
-                        };
-                    });
+        <!-- hide navbar on scroll or click-->
+        <script>
+            $(function () {
+                $(document).on("mousewheel", function () {
+                    if ($(document).scrollTop() > 100) {
+                        $('.topnav').hide();
+                    } else {
+                        $('.topnav').show();
+                    };
                 });
+            });
 
-                $('.navbar-right').on('click', function () {
-                    $('.topnav').hide();
-                });
-
-            </script>
+            $('.navbar-right').on('click', function () {
+                $('.topnav').hide();
+            });
+        </script>
 </body>
 
 </html>
